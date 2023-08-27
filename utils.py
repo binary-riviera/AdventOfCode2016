@@ -1,3 +1,5 @@
+from itertools import * # useful to have around
+
 
 def head(l):
     print(l[0:4])

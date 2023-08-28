@@ -34,3 +34,7 @@ def read_input_as_list(day: str, linesplit=None):
 
 def read_input_as_tuples(day: str, linesplit=None):
     return list(map(tuple, read_input_as_list(day, linesplit)))
+
+
+def read_input_as_file(day: str):
+    return open(get_filepath(day))
